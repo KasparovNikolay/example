@@ -1,0 +1,26 @@
+.btn {
+  width: 100px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  margin-right: 15px;
+  border: none;
+  outline: none;
+  color: black;
+  border-radius: 2px;
+  transition: .3s ease-in-out;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  &:active {
+    box-shadow: 1px 1px 5px 1px #666666;
+    transition: .3s ease-in-out;
+  }
+}
